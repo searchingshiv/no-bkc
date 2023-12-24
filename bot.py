@@ -78,11 +78,11 @@ async def start(bot: Client, cmd: Message):
                     ],
                     [
                         InlineKeyboardButton("Auto-Group", url="https://t.me/The_Silent_Teams"),
-                        InlineKeyboardButton("Latest Stuff", url="https://t.me/+XOQXjYXlfDE0NTM1"),
-                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
+                        InlineKeyboardButton("Latest-Stuff", url="https://t.me/+XOQXjYXlfDE0NTM1"),
+                        InlineKeyboardButton("Discuss-Group", url="https://t.me/+H_UaTREHmVo2MWE1")
                     ],
                     [
-                        InlineKeyboardButton("Discussion Group", url="https://t.me/+H_UaTREHmVo2MWE1")
+                        InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ]
                 ]
             )

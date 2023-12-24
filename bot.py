@@ -74,16 +74,15 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Updates Channel", url="https://t.me/VJ_Botz")
+                        InlineKeyboardButton("Updates Channel", url="https://t.me/The_Silent_Teams")
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs"),
+                        InlineKeyboardButton("Auto-Group", url="https://t.me/The_Silent_Teams"),
+                        InlineKeyboardButton("Latest Stuff", url="https://t.me/+XOQXjYXlfDE0NTM1"),
                         InlineKeyboardButton("Close 🚪", callback_data="closeMessage")
                     ],
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/VJ_Bot_Disscussion"),
-                        InlineKeyboardButton("YouTube Channel", url="https://youtube.com/@Tech_VJ")
+                        InlineKeyboardButton("Discussion Group", url="https://t.me/+H_UaTREHmVo2MWE1")
                     ]
                 ]
             )
